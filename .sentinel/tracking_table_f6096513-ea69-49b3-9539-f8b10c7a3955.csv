@@ -1,4 +1,5 @@
 FileName, CommitSha
 Detections/Defense Evasion/shimcache_flush.bicep,0b071c306d9fc7ca429cc09ad7a43d6eabfd742f
 Detections/Persistence/hijacking_text_file_associations.bicep,bf652046f9b3fd2ec9bf9388a4964be2dba5f8ef
+Detections/Defense Evasion/colorcpl.exe_for_defense_evasion.bicep,c720c0d14a08dbb87d54009c29af66629efaa87e
 
