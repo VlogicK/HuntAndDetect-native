@@ -1,3 +1,4 @@
 FileName, CommitSha
-Detections/Persistence/hijacking_text_file_associations.bicep,9ccefa3cfba09d018506764e1577c5131acf7a19
+Detections/Persistence/hijacking_text_file_associations.bicep,bf652046f9b3fd2ec9bf9388a4964be2dba5f8ef
+Detections/Defense Evasion/shimcache_flush.bicep,0b071c306d9fc7ca429cc09ad7a43d6eabfd742f
 
