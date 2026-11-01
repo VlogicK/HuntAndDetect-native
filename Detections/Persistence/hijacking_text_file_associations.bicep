@@ -13,6 +13,7 @@ resource analyticRule 'Microsoft.OperationalInsights/workspaces/providers/alertR
     description: 'Detects registry modification events that change the default handler for .txt files, potentially establishing persistence.'
     enabled: true
     query: '''
+//Rule Autor: VlogicK
 DeviceRegistryEvents
 | where ActionType == "RegistryValueSet"
 | where RegistryKey has_any (@"\\txtfile\\shell\\open\\command", @"\\FileExts\\.txt\\UserChoice") or RegistryKey endswith @"\\.txt"
