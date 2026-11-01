@@ -19,6 +19,7 @@ on:
 
 jobs:
   deploy-content:
+    environment: production
     runs-on: windows-latest
     env:
       resourceGroupName: 'sentinellab3'
